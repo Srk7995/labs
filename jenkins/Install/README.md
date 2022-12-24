@@ -35,8 +35,16 @@ sudo apt-get update
 sudo apt-get install jenkins
 
 ### Gradle 
+wget https://services.gradle.org/distributions/gradle-7.6-bin.zip
+
+$ mkdir /opt/gradle
+$ unzip -d /opt/gradle gradle-7.6-bin.zip
+$ ls /opt/gradle/gradle-7.6
+LICENSE  NOTICE  bin  getting-started.html  init.d  lib  media
 
 export PATH=$PATH:/opt/gradle/gradle-7.6/bin
+
+$ gradle -v
 ```
 ## `Below are Just FYI Only` 
 
