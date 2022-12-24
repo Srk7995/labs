@@ -33,6 +33,10 @@ sudo wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt
 sudo echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
 sudo apt-get update
 sudo apt-get install jenkins
+
+### Gradle 
+
+export PATH=$PATH:/opt/gradle/gradle-7.6/bin
 ```
 ## `Below are Just FYI Only` 
 
